@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.tour_guide.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/hp">
+
+        <TextView
+            android:id="@+id/historical_places"
+            style="@style/style1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/hp"
+            android:textColor="@color/white" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/rp">
+
+        <TextView
+            android:id="@+id/religious_places"
+            style="@style/style1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/rp"
+            android:textColor="@color/white" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/r">
+
+        <TextView
+            android:id="@+id/restaurants"
+            style="@style/style1"
+            android:text="@string/r"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="@color/white" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pp">
+
+        <TextView
+            android:id="@+id/public_places"
+            style="@style/style1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/pp"
+            android:textColor="@color/white" />
+    </FrameLayout>
+
+</LinearLayout>
